@@ -157,23 +157,3 @@ Developed a Python-based SOC investigation dashboard to ingest and normalize sec
 Only describe features as completed after running the application and validating them with the included tests and your own evidence.
 
 ## Interview talking points
-
-1. **Why build it?** To demonstrate how raw security telemetry can be converted into prioritized, explainable alerts for SOC analysts.
-2. **How does it work?** Events are normalized, passed through detection rules, enriched with ATT&CK context, triaged and presented in the dashboard.
-3. **How is AI used?** AI provides an analyst-friendly explanation and suggested investigation steps. Detection remains rule-based so the core workflow works without an API.
-4. **How do you reduce hallucinations?** The prompt instructs the model to separate facts from hypotheses and only use supplied alert evidence. Analysts must still validate recommendations.
-5. **What is a false positive?** A benign event incorrectly flagged by a detection. Thresholds and allowlists need tuning against the target environment.
-6. **What would you improve?** Add time-window correlation, Sysmon mappings, Sigma parsing, labeled-dataset evaluation and integration with a real SIEM.
-7. **What is MITRE ATT&CK?** A knowledge base of adversary tactics and techniques used to describe observed behaviors and improve detection coverage.
-
-## Demo checklist
-
-- [ ] Launch the app successfully.
-- [ ] Confirm synthetic events load.
-- [ ] Verify brute-force alert appears.
-- [ ] Verify successful-login-after-failures alert appears.
-- [ ] Verify suspicious PowerShell alert appears.
-- [ ] Verify cloud IAM alerts appear.
-- [ ] Generate a Copilot explanation with no API key.
-- [ ] Export CSV and Markdown incident report.
-- [ ] Capture genuine screenshots of the running app.
