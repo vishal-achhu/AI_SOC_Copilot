@@ -156,4 +156,6 @@ Developed a Python-based SOC investigation dashboard to ingest and normalize sec
 
 Only describe features as completed after running the application and validating them with the included tests and your own evidence.
 
-## Interview talking points
+<img width="1920" height="1020" alt="Screenshot 2026-11-13 122444" src="https://github.com/user-attachments/assets/3fda44ee-9ea7-4584-9275-76a9e4bddf43" />
+<img width="1920" height="1080" alt="Screenshot 2026-11-13 122455" src="https://github.com/user-attachments/assets/48dcc140-e285-40a1-8ffa-52c762247da0" />
+
